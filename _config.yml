@@ -1,35 +1,36 @@
 # Basic Information 
-title: Yaoyao Liu
+title: Nan Lu
 position: Assistant Professor
-affiliation: University of Illinois
-affiliation_link: https://www.illinois.edu/
-affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+affiliation: University of Bristol
+affiliation_link: https://www.bristol.ac.uk/
+affiliation_logo: ./assets/img/bristol.png
+email: lunan.bit (at) gmail.com
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://yaoyaoliu.web.illinois.edu
-description: Yaoyao Liu is an assistant professor at the University of Illinois Urbana-Champaign. His research lies in meta-learning, incremental learning, and image generation.
+keywords: nan lu, lu nan
+canonical: https://lunanbit.github.io
+description: Nan Lu is an Assistant Professor in Artificial Intelligence at the University of Bristol. Her research focuses on trustworthy machine learning.
+
 
 # The option is used to enable the Illinois template.
-enable_hopkins_logo: true
+enable_hopkins_logo: false
 
 # The option is used to show the last update time.
 enable_last_update: false
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+google_scholar: https://scholar.google.co.jp/citations?user=KQUQlG4AAAAJ&hl=en
+github_link: https://github.com/lunanbit
+linkedin: https://www.linkedin.com/in/nan-lu-28b0991b6/
+twitter: ""   # No Twitter
 
 # Images 
-avatar: https://img.yliu.me/avatar_new.jpg
+avatar: ./assets/img/portrait.png
 
 # Footnotes
-footnote: Feel free to use my website's source code.
-footnote_link: https://github.com/yaoyao-liu/minimal-light
+# footnote: Feel free to use my website's source code.
+# footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 

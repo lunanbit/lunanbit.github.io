@@ -39,8 +39,7 @@ journals:
 
 preprints:
   - title: "From Many Imperfect to One Trusted: Imitation Learning from Heterogeneous Demonstrators with Unknown Expertise"
-    authors: "*Cheng Pan, *Nan Lu, Kai Arulkumaran, Josie Hughes"
-    notes: "Equal contribution between authors marked with *"
+    authors: "*Cheng Pan, *Nan Lu, Kai Arulkumaran, Josie Hughes (*Equal contribution)"
     conference_short: "Preprint"
     conference: "OpenReview Preprint"
     pdf: "https://openreview.net/pdf?id=Kq50iDD6cx"
@@ -77,8 +76,7 @@ conferences:
     image: "/assets/img/pub/iclr_federated_unlabeled.png"
 
   - title: "Binary Classification from Multiple Unlabeled Datasets via Surrogate Set Classification"
-    authors: "*Nan Lu, *Shida Lei, Gang Niu, Issei Sato, Masashi Sugiyama"
-    notes: "Equal contribution between authors marked with *"
+    authors: "*Nan Lu, *Shida Lei, Gang Niu, Issei Sato, Masashi Sugiyama (*Equal contribution)"
     conference_short: "ICML"
     conference: "ICML 2021"
     pdf: "https://arxiv.org/pdf/2102.00678.pdf"
@@ -92,8 +90,7 @@ conferences:
     image: "/assets/img/pub/icml_pairwise.png"
 
   - title: "Rethinking Importance Weighting for Deep Learning under Distribution Shift"
-    authors: "*Tongtong Fang, *Nan Lu, Gang Niu, Masashi Sugiyama"
-    notes: "Equal contribution between authors marked with *"
+    authors: "*Tongtong Fang, *Nan Lu, Gang Niu, Masashi Sugiyama (*Equal contribution)"
     conference_short: "NeurIPS"
     conference: "NeurIPS 2020"
     pdf: "https://arxiv.org/pdf/2006.04662.pdf"

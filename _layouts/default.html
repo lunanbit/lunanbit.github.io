@@ -83,7 +83,7 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="120" src="../{{ site.affiliation_logo }}"></a>
+      <a href="{{ site.affiliation_link }}"><img width="120" src="{{ site.affiliation_logo | relative_url }}"></a>
 
       <div id="myLinks">
       {% include navigation.md %}
@@ -119,7 +119,7 @@
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar"><img src="{{ site.avatar | relative_url }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>

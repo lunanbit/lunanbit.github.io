@@ -8,7 +8,7 @@ layout: homepage
 
 I am an incoming Assistant Professor in the [School of Computer Science](https://www.bristol.ac.uk/science-engineering/schools/computer-science/) at the [University of Bristol](https://www.bristol.ac.uk/), starting in January 2026. I am also a visiting scientist at the [RIKEN Center for Advanced Intelligence Project (RIKEN-AIP)](https://www.riken.jp/en/research/labs/aip/) and a member of the [European Laboratory for Learning and Intelligent Systems (ELLIS)](https://ellis.eu/).
 
-My research focuses on trustworthy machine learning, spanning the design, analysis, and evaluation of reliable learning algorithms under data corruption, across diverse data modalities, and under real-world constraints. I work on both the theoretical foundations of machine learning and its applications in core AI areas such as computer vision and reinforcement learning, as well as real-world problems in healthcare.
+My research focuses on trustworthy machine learning, including the design, analysis, and evaluation of reliable learning algorithms under various data corruptions, across diverse data modalities, and under real-world constraints. I work on both the theoretical foundations of machine learning and its applications in core AI areas such as computer vision and reinforcement learning, as well as real-world problems in healthcare.
 
 **Research Interests**
 - **Weakly Supervised Learning:** Advancing learning paradigms that enable models to perform reliably under imperfect supervision, including but not limited to corrupted labels, distribution shifts, and selection bias.

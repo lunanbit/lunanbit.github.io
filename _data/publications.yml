@@ -1,127 +1,124 @@
-main:
+# Publications data for Nan Lu
+# ---------------------------------------------------------
+# Notes:
+#  - "*Name" indicates equal contribution (as used in the CV)
+#  - All entries require plain text only (no LaTeX commands)
+#  - Images should be stored in /assets/img/pub/ and referenced as relative paths
+# ---------------------------------------------------------
 
-  ###########################################
-  # BOOKS
-  ###########################################
+books:
   - title: "Machine Learning from Weak Supervision: An Empirical Risk Minimization Approach"
-    authors: Masashi Sugiyama, Han Bao, Takashi Ishida, **Nan Lu**, Tomoya Sakai, Gang Niu
-    conference_short: Book
-    conference: "The MIT Press, Adaptive Computation and Machine Learning Series, 2022"
-    pdf: https://lbahp.mitpress.mit.edu/books/machine-learning-weak-supervision
-    page: https://mitpress.mit.edu/search-result-list/?series=adaptive-computation-and-machine-learning-series
-    image: /assets/img/book_default.png
+    authors: "Masashi Sugiyama, Han Bao, Takashi Ishida, Nan Lu, Tomoya Sakai, Gang Niu"
+    conference_short: "Book"
+    conference: "Adaptive Computation and Machine Learning Series, MIT Press, 2022"
+    page: "https://lbahp.mitpress.mit.edu/books/machine-learning-weak-supervision"
+    image: "/assets/img/pub/book_weak_supervision.png"
 
-  ###########################################
-  # BOOK CHAPTERS
-  ###########################################
+book_chapters:
   - title: "Rethinking Importance Weighting for Transfer Learning"
-    authors: **Nan Lu**, Tianyi Zhang, Tongtong Fang, Takeshi Teshima, Masashi Sugiyama
-    conference_short: Chapter
-    conference: "Book Chapter in Federated and Transfer Learning, Springer, Cham, 2022"
-    pdf: https://link.springer.com/chapter/10.1007/978-3-031-11748-0_9
-    image: /assets/img/chapter_default.png
+    authors: "Nan Lu, Tianyi Zhang, Tongtong Fang, Takeshi Teshima, Masashi Sugiyama"
+    conference_short: "Chapter"
+    conference: "Federated and Transfer Learning, Springer, 2022"
+    page: "https://link.springer.com/chapter/10.1007/978-3-031-11748-0_9"
+    image: "/assets/img/pub/chapter_importance_weighting.png"
 
-  ###########################################
-  # JOURNAL ARTICLES
-  ###########################################
+journals:
   - title: "A One-step Approach to Covariate Shift Adaptation"
-    authors: Tianyi Zhang, Ikko Yamane, **Nan Lu**, Masashi Sugiyama
-    conference_short: Journal
+    authors: "Tianyi Zhang, Ikko Yamane, Nan Lu, Masashi Sugiyama"
+    conference_short: "Journal"
     conference: "SN Computer Science, vol. 2, no. 319, 2021"
-    pdf: https://link.springer.com/article/10.1007/s42979-021-00678-6#additional-information
-    image: /assets/img/journal_default.png
+    pdf: "https://link.springer.com/article/10.1007/s42979-021-00678-6#additional-information"
+    image: "/assets/img/pub/journal_covariate_shift.png"
 
   - title: "Corruptions of Supervised Learning Problems: Typology and Mitigations"
-    authors: Laura Iacovissi, **Nan Lu**, Robert C. Williamson
-    conference_short: JMLR
-    conference: "Journal of Machine Learning Research, to appear, 2025"
-    pdf: https://arxiv.org/pdf/2307.08643.pdf
-    image: /assets/img/journal_default.png
+    authors: "Laura Iacovissi, Nan Lu, Robert C. Williamson"
+    conference_short: "Journal"
+    conference: "Journal of Machine Learning Research (to appear), 2025"
+    pdf: "https://arxiv.org/pdf/2307.08643.pdf"
+    image: "/assets/img/pub/journal_corruptions.png"
 
-  ###########################################
-  # PREPRINTS
-  ###########################################
+preprints:
   - title: "From Many Imperfect to One Trusted: Imitation Learning from Heterogeneous Demonstrators with Unknown Expertise"
-    authors: *Cheng Pan, **Nan Lu**, Kai Arulkumaran, Josie Hughes
-    conference_short: Preprint
+    authors: "*Cheng Pan, *Nan Lu, Kai Arulkumaran, Josie Hughes"
+    notes: "Equal contribution between authors marked with *"
+    conference_short: "Preprint"
     conference: "OpenReview Preprint"
-    pdf: https://openreview.net/pdf?id=Kq50iDD6cx
-    image: /assets/img/preprint_default.png
+    pdf: "https://openreview.net/pdf?id=Kq50iDD6cx"
+    image: "/assets/img/pub/preprint_imitation_learning.png"
 
-  ###########################################
-  # CONFERENCE PAPERS
-  ###########################################
+conferences:
   - title: "Learning from Ambiguous Data with Hard Labels"
-    authors: Zeke Xie, Zheng He, **Nan Lu**, Lichen Bai, Bao Li, Shuo Yang, Mingming Sun, Ping Li
-    conference_short: ICASSP
+    authors: "Zeke Xie, Zheng He, Nan Lu, Lichen Bai, Bao Li, Shuo Yang, Mingming Sun, Ping Li"
+    conference_short: "ICASSP"
     conference: "IEEE ICASSP 2025"
-    pdf: https://arxiv.org/pdf/2501.01844
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2501.01844"
+    image: "/assets/img/pub/icassp_ambiguous.png"
 
   - title: "Generalizing Importance Weighting to A Universal Solver for Distribution Shift Problems"
-    authors: Tongtong Fang, **Nan Lu**, Gang Niu, Masashi Sugiyama
-    conference_short: NeurIPS
+    authors: "Tongtong Fang, Nan Lu, Gang Niu, Masashi Sugiyama"
+    conference_short: "NeurIPS"
     conference: "NeurIPS 2023"
-    pdf: https://arxiv.org/pdf/2305.14690.pdf
-    notes: "Spotlight Paper"
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2305.14690.pdf"
+    notes: "Spotlight"
+    image: "/assets/img/pub/neurips_universal_solver.png"
 
   - title: "Learning from Multiple Unlabeled Datasets with Partial Risk Regularization"
-    authors: Yuting Tang, **Nan Lu**, Tianyi Zhang, Masashi Sugiyama
-    conference_short: ACML
+    authors: "Yuting Tang, Nan Lu, Tianyi Zhang, Masashi Sugiyama"
+    conference_short: "ACML"
     conference: "ACML 2022"
-    pdf: https://arxiv.org/pdf/2207.01555.pdf
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2207.01555.pdf"
+    image: "/assets/img/pub/acml_partial_risk.png"
 
-  - title: "Federated Learning from Only Unlabeled Data with Class-Conditional-Sharing Clients"
-    authors: **Nan Lu**, Zhao Wang, Xiaoxiao Li, Gang Niu, Qi Dou, Masashi Sugiyama
-    conference_short: ICLR
-    conference: "ICLR 2022 (OpenReview)"
-    pdf: https://openreview.net/forum?id=WHA8009laxu
-    image: /assets/img/conference_default.png
+  - title: "Federated Learning from Only Unlabeled Data with Class-conditional-sharing Clients"
+    authors: "Nan Lu, Zhao Wang, Xiaoxiao Li, Gang Niu, Qi Dou, Masashi Sugiyama"
+    conference_short: "ICLR"
+    conference: "ICLR 2022"
+    pdf: "https://openreview.net/forum?id=WHA8009laxu"
+    image: "/assets/img/pub/iclr_federated_unlabeled.png"
 
   - title: "Binary Classification from Multiple Unlabeled Datasets via Surrogate Set Classification"
-    authors: **Nan Lu***, Shida Lei*, Gang Niu, Issei Sato, Masashi Sugiyama
-    conference_short: ICML
+    authors: "*Nan Lu, *Shida Lei, Gang Niu, Issei Sato, Masashi Sugiyama"
+    notes: "Equal contribution between authors marked with *"
+    conference_short: "ICML"
     conference: "ICML 2021"
-    pdf: https://arxiv.org/pdf/2102.00678.pdf
-    notes: "*Equal contribution"
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2102.00678.pdf"
+    image: "/assets/img/pub/icml_surrogate_set.png"
 
   - title: "Pointwise Binary Classification with Pairwise Confidence Comparisons"
-    authors: Lei Feng, Senlin Shu, **Nan Lu**, Bo Han, Miao Xu, Gang Niu, Bo An, Masashi Sugiyama
-    conference_short: ICML
+    authors: "Lei Feng, Senlin Shu, Nan Lu, Bo Han, Miao Xu, Gang Niu, Bo An, Masashi Sugiyama"
+    conference_short: "ICML"
     conference: "ICML 2021"
-    pdf: https://arxiv.org/pdf/2010.01875.pdf
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2010.01875.pdf"
+    image: "/assets/img/pub/icml_pairwise.png"
 
   - title: "Rethinking Importance Weighting for Deep Learning under Distribution Shift"
-    authors: *Tongtong Fang*, **Nan Lu***, Gang Niu, Masashi Sugiyama
-    conference_short: NeurIPS
+    authors: "*Tongtong Fang, *Nan Lu, Gang Niu, Masashi Sugiyama"
+    notes: "Equal contribution between authors marked with *"
+    conference_short: "NeurIPS"
     conference: "NeurIPS 2020"
-    pdf: https://arxiv.org/pdf/2006.04662.pdf
-    notes: "Spotlight Paper"
-    image: /assets/img/conference_default.png
+    pdf: "https://arxiv.org/pdf/2006.04662.pdf"
+    notes2: "Spotlight"
+    image: "/assets/img/pub/neurips_importance_weighting.png"
 
   - title: "Mitigating Overfitting in Supervised Classification from Two Unlabeled Datasets"
-    authors: **Nan Lu**, Tianyi Zhang, Gang Niu, Masashi Sugiyama
-    conference_short: AISTATS
+    authors: "Nan Lu, Tianyi Zhang, Gang Niu, Masashi Sugiyama"
+    conference_short: "AISTATS"
     conference: "AISTATS 2020"
-    pdf: http://proceedings.mlr.press/v108/lu20c/lu20c.pdf
+    pdf: "http://proceedings.mlr.press/v108/lu20c/lu20c.pdf"
     notes: "Best Paper Award (ACML 2019 WSL Workshop)"
-    image: /assets/img/conference_default.png
+    image: "/assets/img/pub/aistats_two_unlabeled.png"
 
   - title: "A One-step Approach to Covariate Shift Adaptation"
-    authors: Tianyi Zhang, Ikko Yamane, **Nan Lu**, Masashi Sugiyama
-    conference_short: ACML
+    authors: "Tianyi Zhang, Ikko Yamane, Nan Lu, Masashi Sugiyama"
+    conference_short: "ACML"
     conference: "ACML 2020"
-    pdf: http://proceedings.mlr.press/v129/zhang20a/zhang20a.pdf
+    pdf: "http://proceedings.mlr.press/v129/zhang20a/zhang20a.pdf"
     notes: "Best Paper Award"
-    image: /assets/img/conference_default.png
+    image: "/assets/img/pub/acml_covariate_shift.png"
 
   - title: "On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data"
-    authors: **Nan Lu**, Gang Niu, Aditya Menon, Masashi Sugiyama
-    conference_short: ICLR
-    conference: "ICLR 2019 (OpenReview)"
-    pdf: https://openreview.net/forum?id=B1xWcj0qYm
-    image: /assets/img/conference_default.png
+    authors: "Nan Lu, Gang Niu, Aditya Menon, Masashi Sugiyama"
+    conference_short: "ICLR"
+    conference: "ICLR 2019"
+    pdf: "https://openreview.net/forum?id=B1xWcj0qYm"
+    image: "/assets/img/pub/iclr_minimal_supervision.png"

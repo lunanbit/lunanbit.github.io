@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">
+<h2 style="margin: 60px 0px 25px;">   <!-- Increased bottom margin from -15px to 25px -->
   Publications
   <temp style="font-size:15px;">[</temp>
   <a href="https://scholar.google.com/citations?user=KQUQlG4AAAAJ&hl=en" target="_blank" style="font-size:15px;">Google Scholar</a>
@@ -16,9 +16,10 @@
   border-radius: 8px;
   border: 1px solid #ddd;
 }
+
 .badge {
   position: absolute;
-  bottom: 5px;
+  top: 5px;         /* moved from bottom to top */
   left: 10px;
   background: #444;
   color: white;
@@ -26,27 +27,39 @@
   font-size: 11px;
   border-radius: 4px;
 }
+
 .pub-row {
   display: flex;
   flex-wrap: wrap;
 }
+
 .pub-left {
   width: 180px;
   padding: 10px;
   position: relative;
 }
+
 .pub-right {
   flex: 1;
   padding: 10px 20px;
 }
+
 .pub-title {
   font-weight: bold;
   font-size: 17px;
 }
+
+/* Extra spacing between categories */
+h3 {
+  margin-top: 40px;   /* increased spacing before section titles */
+  margin-bottom: 10px;
+}
 </style>
+
 
 <div class="publications">
 <ol class="bibliography">
+
 
 <!-- ============ BOOKS ============ -->
 {% if site.data.publications.books %}
@@ -61,16 +74,20 @@
   </div>
 
   <div class="pub-right">
-    <div class="pub-title"><a href="{{ link.pdf | default: link.page }}">{{ link.title }}</a></div>
+    <div class="pub-title">
+      <a href="{{ link.pdf | default: link.page }}">{{ link.title }}</a>
+    </div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
 
     <div class="links">
       {% if link.pdf %}
-      <a href="{{ link.pdf }}" target="_blank" class="btn btn-sm z-depth-0" style="font-size:12px;">PDF</a>
+      <a href="{{ link.pdf }}" target="_blank"
+        class="btn btn-sm z-depth-0" style="font-size:12px;">PDF</a>
       {% endif %}
       {% if link.page %}
-      <a href="{{ link.page }}" target="_blank" class="btn btn-sm z-depth-0" style="font-size:12px;">Page</a>
+      <a href="{{ link.page }}" target="_blank"
+        class="btn btn-sm z-depth-0" style="font-size:12px;">Page</a>
       {% endif %}
     </div>
   </div>
@@ -95,7 +112,9 @@
   </div>
 
   <div class="pub-right">
-    <div class="pub-title"><a href="{{ link.pdf | default: link.page }}">{{ link.title }}</a></div>
+    <div class="pub-title">
+      <a href="{{ link.pdf | default: link.page }}">{{ link.title }}</a>
+    </div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
   </div>
@@ -120,7 +139,9 @@
   </div>
 
   <div class="pub-right">
-    <div class="pub-title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+    <div class="pub-title">
+      <a href="{{ link.pdf }}">{{ link.title }}</a>
+    </div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
   </div>
@@ -145,7 +166,9 @@
   </div>
 
   <div class="pub-right">
-    <div class="pub-title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+    <div class="pub-title">
+      <a href="{{ link.pdf }}">{{ link.title }}</a>
+    </div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
   </div>
@@ -170,7 +193,9 @@
   </div>
 
   <div class="pub-right">
-    <div class="pub-title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+    <div class="pub-title">
+      <a href="{{ link.pdf }}">{{ link.title }}</a>
+    </div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
 

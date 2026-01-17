@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 80px 0px 10px;"></h2>
 
-I am a Lecturer (Assistant Professor) in AI in the [School of Computer Science](https://www.bristol.ac.uk/science-engineering/schools/computer-science/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I am also a member of the Bristol [Machine Learning and Computer Vision (MaVi)](https://www.riken.jp/en/research/labs/aip/) group, a visiting scientist at the [RIKEN Center for Advanced Intelligence Project (RIKEN-AIP)](https://www.riken.jp/en/research/labs/aip/) in Tokyo, and a member of the [European Laboratory for Learning and Intelligent Systems (ELLIS)](https://ellis.eu/).
+I am a Lecturer (Assistant Professor) in AI in the [School of Computer Science](https://www.bristol.ac.uk/science-engineering/schools/computer-science/) at the [University of Bristol](https://www.bristol.ac.uk/), UK. I am also a member of the Bristol [Machine Learning and Computer Vision (MaVi)](https://uob-mavi.github.io/people/) group, a visiting scientist at the [RIKEN Center for Advanced Intelligence Project (RIKEN-AIP)](https://www.riken.jp/en/research/labs/aip/) in Tokyo, and a member of the [European Laboratory for Learning and Intelligent Systems (ELLIS)](https://ellis.eu/).
 
 My research focuses on trustworthy machine learning, including the design, analysis, and evaluation of reliable learning algorithms under various data corruptions, across diverse data modalities, and under real-world constraints. I work on both the theoretical foundations of machine learning and its applications in core AI areas such as computer vision and reinforcement learning, as well as real-world problems in healthcare.
 
